@@ -1,0 +1,41 @@
+body{
+    background-color: #c04343;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header{
+    text-align: center;
+    background-color: #000000;
+    color: #fff;
+    font-size: 30px;
+    margin-bottom: 50px;
+}
+
+.container{
+    width: 500px;
+    height: 600px;
+    border: 1px solid rgb(48, 247, 81);
+    display: flex;
+    flex-direction: column;
+}
+
+#display{
+    border: 1px solid rgb(14, 43, 209);
+    height: 30%;
+}
+
+.row{
+    border: 1px solid rgb(14, 43, 209); 
+    display: flex;
+    flex: 1;
+}
+
+button{
+    flex: 1;
+}
+
+footer{
+    margin-top: 30%;
+}
