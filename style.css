@@ -1,5 +1,6 @@
 body{
-    background-color: #c04343;
+    background: url("img/school.jpg");
+    background-size:100% 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -16,26 +17,40 @@ header{
 .container{
     width: 500px;
     height: 600px;
-    border: 1px solid rgb(48, 247, 81);
     display: flex;
     flex-direction: column;
+    background-color: #302c2c;
+    border-radius: 7px;
 }
 
 #display{
-    border: 1px solid rgb(14, 43, 209);
+    border-radius: 8px;
     height: 30%;
+    display: flex;
+    justify-content: end;
+    font-size: 25px;
+    background-color: #d4cccc;
+    margin: 15px;
+    padding: 10px;
+    color: #102d7c;
 }
 
 .row{
-    border: 1px solid rgb(14, 43, 209); 
     display: flex;
     flex: 1;
+    gap: 7px;
+    margin: 7px;
+    
 }
 
 button{
+    background-color: #888282;
+    color: #fff;
+    font-size: 30px;
+    border-radius: 10px;
     flex: 1;
 }
 
 footer{
-    margin-top: 30%;
+    margin-top: 9%;
 }
