@@ -1,6 +1,16 @@
-const a = 5;
+const a = document.querySelector('.input');
 const b = 5;
 const operator = '+';
+const number = document.querySelectorAll('.number');
+const div = document.querySelector('#div');
+
+
+number.forEach( num =>{
+    num.addEventListener('click', ()=>{
+        a.textContent += num.id;
+    });
+});
+
 
 function operate (operator, a, b){
     if (operator == '+'){
@@ -32,8 +42,3 @@ function multiply(a, b){
 function divide(a, b){
     return a / b;
 }
-
-console.log(add(a, b));
-console.log(subtract(a, b));
-console.log(multiply(a, b));
-console.log(divide(a, b));

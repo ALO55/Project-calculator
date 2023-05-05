@@ -27,12 +27,19 @@ header{
     border-radius: 8px;
     height: 30%;
     display: flex;
-    justify-content: end;
+    align-items: end;
     font-size: 25px;
     background-color: #d4cccc;
     margin: 15px;
     padding: 10px;
     color: #102d7c;
+    display: flex;
+    flex-direction: column;
+}
+
+.output{
+    color: #28b61b;
+    font-size: 35px;
 }
 
 .row{
