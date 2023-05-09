@@ -1,6 +1,7 @@
 body{
     background: url("img/school.jpg");
     background-size:100% 100%;
+    background-repeat: no-repeat;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -56,6 +57,26 @@ button{
     font-size: 30px;
     border-radius: 10px;
     flex: 1;
+    transition: .1s;
+}
+
+button:hover{
+    transform: scale(1.1);
+    z-index: 2;
+    background-color: #302c2c;
+}
+
+#div, #multiply, #subtract, #add{
+    color: #48eb39;
+}
+
+#clear, #delete{
+    color: #e71c1c;
+}
+
+#equal{
+background-color: #28b61b;
+color: #d4cccc;
 }
 
 footer{
